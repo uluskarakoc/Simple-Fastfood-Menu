@@ -1,22 +1,28 @@
 .cards {
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
   height: 30rem;
-  margin: 0rem auto;
+  margin: 3rem auto;
   max-width: 75rem;
-//   background-color: goldenrod;
+  // background-color: goldenrod;
+
+  .there {
+    gap: 2rem;
+    background-color: chartreuse;
+  }
 
   .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
     height: 6rem;
     width: 10rem;
-   
-   img {
+    margin-bottom: 4rem;
+
+    img {
       width: 1rem;
     }
     button {
