@@ -1,0 +1,36 @@
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  .logo {
+    color: red;
+    font-size: 5rem;
+    font-family: "Caveat", cursive;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Slabo 27px", serif;
+    .all {
+      opacity: 0.5;
+    }
+  }
+  .orderstatus {
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: relative;
+    top: -0.3rem;
+    font-family: "Slabo 27px", serif;
+    span {
+      padding: 0.5rem;
+      border: 1px red solid;
+      border-radius: 50%;
+    }
+  }
+}

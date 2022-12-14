@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-wrap: wrap;
+  height: 30rem;
+  margin: 0rem auto;
+  max-width: 75rem;
+//   background-color: goldenrod;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 6rem;
+    width: 10rem;
+   
+   img {
+      width: 1rem;
+    }
+    button {
+      background-color: rgb(220, 220, 131);
+      padding: 0.3rem;
+      width: 6rem;
+      border: none;
+    }
+    p {
+      color: red;
+      margin: 0.5rem 0rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //   background-color: goldenrod;
+  height: 6rem;
+  position: relative;
+  top: -1rem;
+  left: -2rem;
+  max-width: 120rem;
+  input {
+    margin-top: 2rem;
+    border: none;
+  }
+  button {
+    border: none;
+    color: red;
+    font-size: 1.3rem;
+    background-color: white;
+  }
+  .border-bottom {
+    height: 2px;
+    width: 15.5rem;
+    background-color: gray;
+    margin-top: .2rem;
+  }
+}
