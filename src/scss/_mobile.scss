@@ -6,10 +6,17 @@
   header {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 0.5rem;
 
     .orderstatus {
       margin: 2rem 0rem;
+    }
+  }
+  .searchbar {
+    .border-bottom {
+      width: 20rem;
     }
   }
 }
