@@ -22,12 +22,16 @@ header {
     }
   }
   .orderstatus {
+   
     font-size: 1.8rem;
     font-weight: bold;
     position: relative;
     top: -0.3rem;
     font-family: "Slabo 27px", serif;
     span {
+      width: 3rem;
+      text-align: center;
+      display: inline-block;
       padding: 0.5rem;
       border: 1px red solid;
       border-radius: 50%;

@@ -1,14 +1,9 @@
 .cards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  // height: 30rem;
   margin: 3rem auto;
-  max-width: 75rem;
-  .there {
-    gap: 2rem;
-    background-color: chartreuse;
-  }
+  max-width: 80rem;
+  
 
   .card {
     display: flex;
@@ -16,7 +11,7 @@
     align-items: center;
     justify-content: center;
     height: 6rem;
-    width: 10rem;
+    width: 20rem;
     margin-bottom: 4rem;
 
     img {

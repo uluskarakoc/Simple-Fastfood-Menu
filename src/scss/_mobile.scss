@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+
+    .orderstatus {
+      margin: 2rem 0rem;
+    }
+  }
+}

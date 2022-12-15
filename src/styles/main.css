@@ -35,6 +35,9 @@ header .orderstatus {
   font-family: "Slabo 27px", serif;
 }
 header .orderstatus span {
+  width: 3rem;
+  text-align: center;
+  display: inline-block;
   padding: 0.5rem;
   border: 1px red solid;
   border-radius: 50%;
@@ -69,14 +72,9 @@ header .orderstatus span {
 
 .cards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   margin: 3rem auto;
-  max-width: 75rem;
-}
-.cards .there {
-  gap: 2rem;
-  background-color: chartreuse;
+  max-width: 80rem;
 }
 .cards .card {
   display: flex;
@@ -84,7 +82,7 @@ header .orderstatus span {
   align-items: center;
   justify-content: center;
   height: 6rem;
-  width: 10rem;
+  width: 20rem;
   margin-bottom: 4rem;
 }
 .cards .card img {
@@ -99,6 +97,20 @@ header .orderstatus span {
 .cards .card p {
   color: red;
   margin: 0.5rem 0rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  header .orderstatus {
+    margin: 2rem 0rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
